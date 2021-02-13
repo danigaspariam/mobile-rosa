@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+           
+           
+        }
+        html, body{
+            height: 100%;
+
+
+        
+
+        }
+        
+        .login{
+            text-align: center;
+            color: white;
+
+        }
+        body{
+            background-image: url(imagens/rosas.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+         
+        #container{
+            height: 100%;
+            
+
+            background-color: rgba(248, 204, 202, 0.486);
+        }
+        
+        #log{
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+
+        .form input{
+            color: pink;
+        }
+
+        .form{
+            
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+        }
+     
+        
+           
+        
+        #botoes{
+            text-align: center;
+        }
+
+        
+        input{
+            border: none;
+            width: 80%;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 15px;
+            
+        }
+        
+        #enter{
+            margin-top: 10px;
+            border: none;
+            color: white;
+            background-color: pink;
+            width: 80%;
+            height: 40px;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 5px;
+
+        }
+        #forgot{
+            margin-top: 10px;
+            border: 3px dashed pink;
+            color: white;
+            background-color: transparent;
+            width: 80%;
+            height: 40px;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 5px;
+            
+
+        }
+        #nome{
+            border: 1px solid white;
+            color: pink;
+            width: 80%;
+            
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+        }
+              
+        input::placeholder{
+            color: pink;
+        }
+
+        input #password{
+            margin-top: 20px;
+        }
+        .login h1{
+            margin-top: 120px;
+            margin-bottom: 60px;
+            font-family: sans-serif;
+        }
+
+
+    </style>
+
+    
+</head>
+
+
+<body>
+
+    <div id="container">
+        <h1 id="log">Login</h1>
+        <div class="login">
+            <h1>Login</h1>
+            <div class="form">
+
+                <form action="">
+                    <div id="nome">
+
+                        <label for=""><i class="fas fa-user"></i></label>
+                        <input type="text" id="nome" name="nome" placeholder=" Your ID">
+                    </div>
+
+                 <br>
+                
+                <input type="password" id="password" name="password" placeholder="   ******">
+                </form>
+            </div>
+        </div>
+        <div id="botoes">
+
+            <button id="enter">Enter</button> <br>
+            <button id="forgot">Forgot password</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
